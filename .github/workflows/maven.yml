@@ -48,8 +48,8 @@ jobs:
       with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: eb.example.co.kr
-          environment_name: eb-env
+          application_name: eb2.example.co.kr
+          environment_name: Eb2examplecokr-env
           version_label: Github Action-${{steps.current-time.outputs.formattedTime}}
           region: ap-northeast-2
           deployment_package: ROOT.zip
